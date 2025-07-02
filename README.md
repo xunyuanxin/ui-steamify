@@ -38,5 +38,5 @@ http://localhost:5173/
 Create a `.env` file and add:
 ```env
 VITE_SUPABASE_URL=https://aycsqllnzvzvlbiovdqj.supabase.co
-VITE_SUPABASE_ANON_KEY={$your-anon-key$}
+VITE_SUPABASE_ANON_KEY={your-anon-key}
 ```
