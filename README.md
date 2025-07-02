@@ -7,11 +7,18 @@
 
 ## 🔧 Tech Stack
 
+### Frontend
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [Supabase](https://supabase.io/)
 - [React Router](https://reactrouter.com/)
-- [AWS S3](https://aws.amazon.com/s3/) for hosting games
+- [Supabase Auth](https://supabase.com/docs/guides/auth)
+### Backend
+- [Supabase](https://supabase.io/) - database, RLS, file storage
+- [AWS Lambda](https://aws.amazon.com/lambda/) - prompt processing / generating games
+- [AWS S3](https://aws.amazon.com/s3/) - hosting games
+### DevOps
+- [GitHub](https://github.com/)
+- [Vercel](https://vercel.com/)
 
 
 ## 🚀 Getting Started
