@@ -1,12 +1,44 @@
-# React + Vite
+# STEAMIFY - UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> ✨ React frontend for the STEAMIFY MVP  
+> 🌱 Built with Vite + React + Supabase  
+> 🎯 Designed for serverless scalability and game embedding via S3
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Supabase](https://supabase.io/)
+- [React Router](https://reactrouter.com/)
+- [AWS S3](https://aws.amazon.com/s3/) for hosting games
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/xunyuanxin/ui-steamify.git
+cd ui-steamify
+npm install
+```
+
+### 2. Start development
+
+```bash
+npm run dev
+```
+
+### 3. Open browser
+http://localhost:5173/
+
+
+## 👥 Environment Variables
+Create a `.env` file and add:
+```env
+VITE_SUPABASE_URL=https://aycsqllnzvzvlbiovdqj.supabase.co
+VITE_SUPABASE_ANON_KEY={$your-anon-key$}
+```
