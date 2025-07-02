@@ -4,7 +4,6 @@
 > 🌱 Built with Vite + React + Supabase  
 > 🎯 Designed for serverless scalability and game embedding via S3
 
----
 
 ## 🔧 Tech Stack
 
@@ -14,7 +13,6 @@
 - [React Router](https://reactrouter.com/)
 - [AWS S3](https://aws.amazon.com/s3/) for hosting games
 
----
 
 ## 🚀 Getting Started
 
